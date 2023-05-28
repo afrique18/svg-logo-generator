@@ -16,5 +16,9 @@
     "init"
   ],
   "author": "Varney Vincent",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "inquirer": "^9.2.6"
+  }
 }
