@@ -1,3 +1,4 @@
+const {Shape, Triangle, Circle, Square }
 const inquirer = require('inquirer');
 const fs = require('fs');
 
@@ -32,5 +33,20 @@ inquirer
   .catch((error) => {
     console.error(error);
   });
-        }
-    ])
+
+    function generateSVG(color, shape, text) {
+        // SVG code template
+        const svgTemplate = `<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">';
+          <rect width="200" height="200" fill="${color}" />
+          <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="white" font-size="32">${text}</text>
+          <circle cx="100" cy="100" r="50" fill="transparent" stroke="white" stroke-width="4" />
+        </svg>`;
+      
+        // Replace placeholders in the SVG template with user input
+        const svgCode = svgTemplate
+          .replace('${color}', color)
+          .replace('${text}', text)
+          .replace('${shape}', shape);
+      
+        return svgCode;
+      }
