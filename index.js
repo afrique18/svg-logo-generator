@@ -1,7 +1,25 @@
-const {Shape, Triangle, Circle, Square } = require()
-const inquirer = require('inquirer');
 const fs = require('fs');
+const inquirer = require('inquirer');
+const {Circle, Triangle, Square } = require('./lib/shapes');
+const questions = require('./lib/questions');
 
+
+
+
+const init = () => {
+  inquirer.prompt(questions)
+  .then((data)) => {
+    console.log('Create svg file...');
+    switch (`$(data)`){
+      case 'Square':
+        console.log('Square is being created...')
+        const square = new square (data.fill, data.stroke, data.strokeWidth, data.test, data.textColor, data.width);
+        fs.writeFile('lib/logo.svg', square.renderSquare(), (err) => {
+          if (err)
+        })
+    }
+  }
+} 
 inquirer
     .prompt([
         {
