@@ -28,3 +28,7 @@ To use this application, run the following command in the terminal: node index.j
 ## Walthrough Video
 
 [Here](put_the_link_here) is a walkthrough video that demonstrates the functionality of this application and passes all tests.
+
+## Collaborators
+
+Michael
