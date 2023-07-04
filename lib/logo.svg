@@ -1,5 +1,7 @@
-<svg width="200" height="200">
-          <rect width="200" height="200" fill="yellow" />
-          <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="white" font-size="32">SVG</text>
-          <circle cx="100" cy="100" r="50" fill="transparent" stroke="white" stroke-width="4" />
+<svg version="1.1"
+        width="500" height="500"
+        xmlns="http://www.w3.org/2000/svg">
+        <circle r="50" cx="250" cy="250" fill ="yellow"/>
+        <text x="50" y="100" dominant-baseline="middle" text-anchor="middle" font-size="60px" font-weight="700"
+        fill="black">SVG</text>
         </svg>
