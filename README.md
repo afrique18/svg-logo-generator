@@ -27,8 +27,9 @@ To use this application, run the following command in the terminal: node index.j
 
 ## Walthrough Video
 
-[Here](chrome-extension://mmeijimgabbpbgpdklnllpncmdofkcpn/app.html#/files/e25e57d1-281f-438d-y6c2-60c9b7ce1a3e) is a walkthrough video that demonstrates the functionality of this application and passes all tests.
+[Here](https://watch.screencastify.com/v/Y31pF8RZonDk0OI8l964) is a walkthrough video that demonstrates the functionality of this application and passes all tests.
 
 ## Collaborators
 
 Martin Guldberg
+
