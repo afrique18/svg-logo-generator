@@ -31,6 +31,6 @@ To use this application, run the following command in the terminal: node index.j
 
 ## Collaborators
 
-Varney Vincent
+Varney Vincent,
 Martin Guldberg
 
